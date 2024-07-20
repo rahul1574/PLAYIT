@@ -7,7 +7,7 @@ function Forgot() {
 
     // Mapping of email addresses to names
     const emailToNameMap = {
-        'rahulmudavath333@gmail.com': 'John Doe',
+        'rahulmudavath333@gmail.com': 'nani@123',
         'example2@example.com': 'Jane Smith',
         // Add more mappings as needed
     };
