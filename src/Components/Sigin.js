@@ -51,7 +51,7 @@ const [image,setimage]=useState('eyeclose.png');
 const [type,settype]=useState('password');
 const handlechange=()=>{
     setimage((previmage)=>
-       previmage==='eyeclose.PNG'?'eyeopen.png':'eyeclose.png'
+       previmage==='eyeclose.png'?'eyeopen.png':'eyeclose.png'
        );
     settype((pretype)=>
     pretype==='password'?'text':'password'
