@@ -20,11 +20,11 @@ export const ContactUs = () => {
         },
       );
   };
-    const [image,setimage]=useState('eyeclose.PNG');
+    const [image,setimage]=useState('eyeclose.png');
     const [type,settype]=useState('password');
     const handlechange=()=>{
         setimage((previmage)=>
-           previmage==='eyeclose.PNG'?'eyeopen.PNG':'eyeclose.PNG'
+           previmage==='eyeclose.PNG'?'eyeopen.png':'eyeclose.png'
            );
         settype((pretype)=>
         pretype==='password'?'text':'password'
