@@ -7,7 +7,7 @@ function Forgot() {
 
     // Mapping of email addresses to names
     const emailToNameMap = {
-        'rahulmudavath333@gmail.com': 'nani@123',
+        'rahulmudavath333@gmail.com': 'John Doe',
         'example2@example.com': 'Jane Smith',
         // Add more mappings as needed
     };
@@ -45,7 +45,7 @@ function Forgot() {
                         onChange={(e) => setEmail(e.target.value)}
                         required
                         placeholder='Email'
-                        style={{textAlign:'center'}}
+                        style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}
                     />
                 </div>
                 <div>
@@ -55,16 +55,16 @@ function Forgot() {
                         onChange={(e) => setSubject(e.target.value)}
                         required
                         placeholder='username'
-                        style={{textAlign:'center'}}
+                        style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}
                     />
                 </div>
                 <button type="submit" style={{height:'40px',width:'200px',backgroundColor:'#14213d',color:'white',border:'none',borderRadius:'20px',margin:'30px'}}>Get Password</button>
-                <Link to='/signin'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white'}}><i class="fa-solid fa-arrow-left"></i>back</button></Link>
+                <Link to='/signin'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white',fontSize:'50px',margin:'5px'}}>↩</button></Link>
             </form>
             <div id='append2' style={{height:'700px',display:'none',flexDirection:'column',justifyContent:'flex-start',alignContent:'center',alignItems:'center',textAlign:'center'}}>
               <img src='monkey.png' alt='' style={{height:'350px'}}></img>
-             <p id='append'style={{height:'70px',fontSize:'10px',width:'350px',borderRadius:'8%',color:'green',backgroundColor:'#252422',display:'none',alignContent:'center'}}>Your password will be send to your E-mail within short time....</p>
-             <Link to='/signin'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white'}}><i class="fa-solid fa-arrow-left"></i>back</button></Link>
+             <p id='append'style={{height:'70px',fontSize:'15px',width:'350px',color:'green',background:'black',display:'none',alignContent:'center',boxShadow:'0px 0px 20px #ffea00',border:'none',borderRadius:'12px'}}>Your password will be send to your E-mail within short time....</p>
+             <Link to='/signin'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white',fontSize:'50px',margin:'5px'}}>↩</button></Link>
             </div>
         </div>
     );

@@ -35,8 +35,8 @@ const movebody=()=>{
       <hr></hr>
       <Link to='/recommend'><div className='slidebox'style={{width:'200px',color:'white'}}><Link to='/recommend'>➕Recommend your song!</Link></div></Link>
       <div className='slidebox' style={{width:'200px',color:'white'}}><Link to='/report' >💬Repot a problem</Link></div>
-      <Link to='/start'><div style={{width:'100px',margin:'20px'}}>Logout</div></Link>
-      <button onClick={slidehide} style={{border:'none',background:'transparent',color:'white'}}><i class="fa-solid fa-arrow-left"></i></button>
+      <Link to='/start'><div style={{width:'100px',margin:'20px'}}>🏃Logout</div></Link>
+      <button onClick={slidehide} style={{border:'none',background:'transparent',color:'white',fontSize:'50px',margin:'5px'}}>↩</button>
     </div>
     <section id="list">
         <div className="list1">

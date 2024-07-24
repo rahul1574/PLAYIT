@@ -2,8 +2,8 @@ import React,{useState} from 'react';
 import{Link,useNavigate} from "react-router-dom";
 export default function Signin() {
 // Define separate lists for element1 and element2
-const element1List = ['apple','Rahul'];
-const element2List = ['date','nani@123'];
+const element1List = ['apple','banana', 'cherry'];
+const element2List = ['date','elderberry', 'fig'];
 
 const [element1Index, setElement1Index] = useState(-1);
 const [element2Index, setElement2Index] = useState(-1);
@@ -59,7 +59,7 @@ const handlechange=()=>{
 }
 
 return (
-  <div style={{height:'600px',display:'flex',flexDirection:'column',alignContent:'space-evenly',alignItems:'center',justifyContent:'space-evenly'}}>
+  <div style={{height:'600px',display:'flex',flexDirection:'column',alignContent:'space-evenly',alignItems:'center',justifyContent:'space-evenly',boder:'2px solid white'}}>
     <h1 style={{color:'white'}}>VIBE-TOUCH</h1>
     <h4 style={{color:'white'}}>~Be Together</h4>
     <div>
@@ -68,7 +68,7 @@ return (
         value={element1}
         onChange={handleElement1Change}
         placeholder="username"
-        style={{textAlign:'center'}}
+        style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}
       />
     </div>
     <div style={{display:'flex',flexDirection:'column',textAlign:'end'}}>
@@ -78,7 +78,7 @@ return (
         value={element2}
         onChange={handleElement2Change}
         placeholder="Password"
-        style={{textAlign:'center'}}
+        style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}
       />
       <img src={image} alt="clickable" onClick={handlechange} id="show"style={{height:'20px',width:'20px',position:'relative',right:'35px',top:'3px'}}></img>
       </div>

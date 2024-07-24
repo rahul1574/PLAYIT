@@ -166,7 +166,6 @@ Samudbhavinche Avataaramidhe…` },
     return (
         <>
         <div className="navbar">
-          
           <div to="/Intro" id="photo"></div>
           <Link  to="/Power" ><i id="three" class="fa-solid fa-power-off"></i></Link>
           <Link to="/home"><i id="two" class="fa-solid fa-house"></i></Link>
@@ -218,7 +217,7 @@ Samudbhavinche Avataaramidhe…` },
                             <div id="flow">{playlist[currentSongIndex].lyrics}</div></div>}
                         {isExpanded && <div id="hide"></div>}
                         <div id="controlbtn">
-                           <button  className="songbtn1"onClick={prevSongHandler} disabled={currentSongIndex === null}>⏮</button>
+                           <button  className="songbtn1" onClick={prevSongHandler} disabled={currentSongIndex === null}>⏮</button>
                            {isPlaying ? (
                            <button  className="songbtn" onClick={pauseHandler} disabled={currentSongIndex === null}>⏸️</button>
                            ) : (

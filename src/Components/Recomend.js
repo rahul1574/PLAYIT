@@ -42,20 +42,20 @@ function Recommend() {
        </div>
       <form ref={form}  id='form'onSubmit={sendEmail}style={{ height:'600px',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'space-evenly'}}>
         <label>Email</label>
-        <input type="email" name="user_mail" value={inputmail} onChange={(e)=> setinputvalue(e.target.value)} style={{textAlign:'center'}}/>
-        <label>Movie name,language</label>
-        <input type="text" name="user_name" value={inputmovie} onChange={(e)=> setinputmovie(e.target.value)} style={{textAlign:'center'}} />
+        <input type="email" name="user_mail" value={inputmail} onChange={(e)=> setinputvalue(e.target.value)} style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}/>
+        <label>Movie name & language</label>
+        <input type="text" name="user_name" value={inputmovie} onChange={(e)=> setinputmovie(e.target.value)} style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}} />
         <label>Song name</label>
         <div>
-           <input name="message" id='text' value={inputsong} onChange={(e)=> setinputsong(e.target.value)} style={{textAlign:'center'}}/>
+           <input name="message" id='text' value={inputsong} onChange={(e)=> setinputsong(e.target.value)} style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}/>
         </div>
         <input id="appendbtn" type="submit" value="Append" onClick={displayres} style={{border:'none',color:'white',background:'#14213d',borderRadius:'20px'}} />
-        <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white'}}><i class="fa-solid fa-arrow-left"></i>back</button></Link>
+        <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white',fontSize:'50px',margin:'5px'}}>↩</button></Link>
       </form>
       <div id='append2' style={{height:'700px',display:'none',flexDirection:'column',justifyContent:'flex-start',alignContent:'center',alignItems:'center',textAlign:'center'}}>
        <img src='monkey.png' alt='' style={{height:'350px'}}></img>
-       <p id='append'style={{height:'70px',fontSize:'10px',width:'350px',borderRadius:'8%',color:'green',backgroundColor:'#252422',display:'none',alignContent:'center'}}>Your song will be appended within short time....</p>
-       <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white'}}><i class="fa-solid fa-arrow-left"></i>back</button></Link>
+       <p id='append'style={{height:'70px',fontSize:'15px',width:'350px',color:'green',background:'black',display:'none',alignContent:'center',boxShadow:'0px 0px 20px #ffea00',border:'none',borderRadius:'12px'}}>Your song will be appended within short time....</p>
+       <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white',fontSize:'50px',margin:'5px'}}>↩</button></Link>
      </div>
       </>
     );

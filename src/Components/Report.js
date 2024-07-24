@@ -43,20 +43,20 @@ function Report() {
        </div>
       <form ref={form}  id='form'onSubmit={sendEmail}style={{ height:'600px',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'space-evenly'}}>
         <label>Email</label>
-        <input type="email" name="user_mail" value={inputmail} onChange={(e)=> setinputvalue(e.target.value)} style={{textAlign:'center'}}/>
+        <input type="email" name="user_mail" value={inputmail} onChange={(e)=> setinputvalue(e.target.value)} style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}/>
         <label>username</label>
-        <input type="text" name="user_name" value={inputmovie} onChange={(e)=> setinputmovie(e.target.value)} style={{textAlign:'center'}} />
+        <input type="text" name="user_name" value={inputmovie} onChange={(e)=> setinputmovie(e.target.value)} style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}} />
         <label>Problem</label>
         <div>
-           <textarea name="message" id='text' value={inputsong} onChange={(e)=> setinputsong(e.target.value)} style={{textAlign:'center'}}/>
+           <textarea name="message" id='text' value={inputsong} onChange={(e)=> setinputsong(e.target.value)} style={{textAlign:'center',background:'transparent',boder:'none',color:'white'}}/>
         </div>
         <input id="appendbtn" type="submit" value="Report" onClick={displayres} style={{border:'none',color:'white',background:'#14213d',borderRadius:'20px',textAlign:'center'}} />
-        <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white'}}><i class="fa-solid fa-arrow-left"></i>back</button></Link>
+        <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white',fontSize:'50px',margin:'5px'}}>↩</button></Link>
       </form>
       <div id='append2' style={{height:'700px',display:'none',flexDirection:'column',justifyContent:'flex-start',alignContent:'center',alignItems:'center',textAlign:'center'}}>
        <img src='monkey.png' alt='' style={{height:'350px'}}></img>
-       <p id='append'style={{height:'70px',fontSize:'13px',width:'350px',borderRadius:'8%',color:'green',backgroundColor:'#252422',display:'none',alignContent:'center'}}> THANK YOU,Feedback will be soon.....</p>
-       <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white'}}><i class="fa-solid fa-arrow-left"></i>back</button></Link>
+       <p id='append'style={{height:'70px',fontSize:'15px',width:'350px',color:'green',background:'black',display:'none',alignContent:'center',boxShadow:'0px 0px 20px #ffea00',border:'none',borderRadius:'12px'}}> THANK YOU,Feedback will be soon.....</p>
+       <Link to='/home'><button style={{border:'none',background:'transparent',display:'flex',flexDirection:'column',justifyContent:'space-evenly',textAlign:'center',alignItems:'center',color:'white',fontSize:'50px',margin:'5px'}}>↩</button></Link>
      </div>
       </>
     );
