@@ -12,7 +12,7 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "NEE SINGAM DHAN",cast:"A.R. Rahman,Sid Sriram", image:"image5.jpeg",src: "songc1.mp3",lyrics:`
+        { title: "NEE SINGAM DHAN",cast:"A.R. Rahman,Sid Sriram", image:"imagec1.jpeg",src: "songc1.mp3",lyrics:`
         Hosahare..... Hosahore.....
         Saadhinche sattuva unnadhi gundelalo..
         Preminche mettani manasula moolalalo...
