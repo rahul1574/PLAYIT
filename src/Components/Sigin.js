@@ -2,8 +2,8 @@ import React,{useState} from 'react';
 import{Link,useNavigate} from "react-router-dom";
 export default function Signin() {
 // Define separate lists for element1 and element2
-const element1List = ['apple','Rahul','Akhil'];
-const element2List = ['date','nani@123','12345'];
+const element1List = ['apple','Rahul','nani'];
+const element2List = ['date','nani@123','hello'];
 
 const [element1Index, setElement1Index] = useState(-1);
 const [element2Index, setElement2Index] = useState(-1);
