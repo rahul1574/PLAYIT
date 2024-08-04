@@ -12,7 +12,7 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "LOVE MASHUP",cast:" Arijit singh, Vishal Mishra, b praak, Sachet-parampara", image:"magep41.jpeg",src: "songp41.mpeg",lyrics:`
+        { title: "LOVE MASHUP",cast:" Arijit singh, Vishal Mishra, b praak, Sachet-parampara", image:"imagep41.jpeg",src: "songp41.mpeg",lyrics:`
         No lyrics found😥`},
         // Add more songs as needed
     ];
