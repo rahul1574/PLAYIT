@@ -12,7 +12,7 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "HOSAAHOREY",cast:"Arijit Singh,Alka Yagnik", image:"imagep11.jpeg",src: "songp11.mp3",lyrics:`
+        { title: "AGAR TUM SAATH HO",cast:"Arijit Singh,Alka Yagnik", image:"imagep11.jpeg",src: "songp11.mp3",lyrics:`
         Pal Bhar Thahar Jaao
 Dil Ye Sambhal Jaaye
 Kaise Tumhe Roka Karun
