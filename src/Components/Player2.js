@@ -12,39 +12,64 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
-        Hosahare..... Hosahore.....
-        Saadhinche sattuva unnadhi gundelalo..
-        Preminche mettani manasula moolalalo...
-        Maa paata aksharamodalaka vinnado....
-        Painunna jacksonu kindhiki diguthado
-        Hosahare hosahore hey....
-        Hosahare..... Hosahore.....
-        Gundello na paata guitar ai mogindhe...
-        Yeye yayiye yehe yayiye.....
-        Chetullo na raatha chappatlai cherindhe..
-        Yehe yayiye yehe yayiye.....
-        Kashtam neeku nesthamavaga..
-        Vijayam ninnu ishtapadadha..
-        Nee sangeetham nee radham
-        Mundhuku saagupadha...
-        Premanna aayudham toduga undhi kada...
-        Hosaho hosaho hosahore hosaho... re....
-        Ye desam lo aina sandesam maa paate
-        Yeye yayiye yehe he hey...
-        Ye vedika pai aina veduka ra ma aate
-        Yehe yayiye yehe he he hey...
-        Ningi nela nadi madhyana..
-        Ponge ganga ma bhavana... hey
-        Pedilla gonthulu kalasina kaalam idhe...
-        Pedala vedini chaatina vela idhe he he he he hey...
-        Hosahare.... hosahore....
-        Saadhinche sattuva unnadhi gundelalo..
-        Preminche mettani manasula moolalalo..
-        Maa paata aksharamodalaka vinnado...
-        Painunna jacksonu kindhiki diguthado..
-        Hosahare.... hosaho hosaho hosaho hosaho
-        Hosaho hosaho hosaho hosaho hosaho...`},
+        { title: "HOSAAHOREY",cast:"Arijit Singh,Alka Yagnik", image:"imagep11.jpeg",src: "songp11.mp3",lyrics:`
+        Pal Bhar Thahar Jaao
+Dil Ye Sambhal Jaaye
+Kaise Tumhe Roka Karun
+Meri Taraf Aata Har
+Gham Phisal Jaaye
+Aankhon Mein Tum Ko Bharun
+Bin Bole Baatein Tumse Karun
+‘Gar Tum Saath Ho
+Agar Tum Saath Ho
+Behti Rehti
+Rs 1 Trial
+Nahar Nadiya Si
+Teri Duniya Mein
+Meri Duniya Hai
+Teri Chaahaton Mein
+Main Dhal Jaati Hoon
+Teri Aadaton Mein
+‘Gar Tum Saath Ho
+Teri Nazron Mein
+Hai Tere Sapne
+Tere Sapno Mein
+Hai Naraazi
+Mujhe Lagta Hai
+Ke Baatein Dil Ki
+Hoti Lafzon Ki Dhokebaazi
+Tum Saath Ho Ya Na
+Ho Kya Fark Hai
+Bedard Thi Zindagi Bedard Hai
+Agar Tum Saath Ho
+Agar Tum Saath Ho
+Palkein Jhapakte
+Hi Din Ye Nikal Jaaye
+Baithi Baithi Bhaagi Phirun
+Meri Taraf Aata Har
+Gham Phisal Jaaye
+Aankhon Mein Tum Ko Bharun
+Bin Bole Baatein Tumse Karun
+‘Gar Tum Saath Ho
+Agar Tum Saath Ho
+Teri Nazron Mein
+Hai Tere Sapne
+Tere Sapno Mein
+Hai Naraazi
+Mujhe Lagta Hai
+Ke Baatein Dil Ki
+Hoti Lafzon Ki Dhokebaazi
+Tum Saath Ho Ya Na
+Ho Kya Fark Hai
+Bedard Thi Zindagi Bedard Hai
+Agar Tum Saath Ho
+Dil Ye Sambhal Jaaye
+Agar Tum Saath Ho
+Har Gham Phisal Jaaye
+Agar Tum Saath Ho
+Din Ye Nikal Jaaye
+Agar Tum Saath Ho
+Har Gham Phisal Jaaye.`},
         // Add more songs as needed
     ];
 
